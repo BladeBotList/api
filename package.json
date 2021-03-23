@@ -1,0 +1,40 @@
+{
+  "name": "bladebotlist-api",
+  "version": "1.0.0",
+  "description": "BladeBotList's official (public) API",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=PROD node src/app.js",
+    "dev": "NODE_ENV=DEV nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BladeBotList/api.git"
+  },
+  "keywords": [
+    "api",
+    "bladebotlist",
+    "bbl",
+    "opensource",
+    "nodejs",
+    "discord"
+  ],
+  "author": "HiiZun",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BladeBotList/api/issues"
+  },
+  "homepage": "https://github.com/BladeBotList/api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "prettier": "^2.2.1"
+  }
+}
