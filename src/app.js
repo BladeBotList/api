@@ -29,7 +29,7 @@ class App {
     async startWS() {
         console.log("[ PHASE 3 ] Starting internal Webserver (WS)")
         try {
-           global.ws = new this.WebServer()
+           global.ws = new this.WebServer(global.db)
         } catch (e) {
             console.log(`[ PHASE 3 ] Failed with error code: ${e.toString()}`)
         }
